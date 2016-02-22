@@ -1,0 +1,30 @@
+{
+  "name": "es6-system-react-boilerplate",
+  "version": "0.0.1",
+  "description": "ES6 SystemJS and ReactJS BoilerPlate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/realb0t/es6-system-react-boilerplate.git"
+  },
+  "keywords": [
+    "ES6",
+    "SystemJS",
+    "ReactJS"
+  ],
+  "author": "Kazantsev Nickolay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realb0t/es6-system-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/realb0t/es6-system-react-boilerplate#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "express": "^4.13.4",
+    "jspm": "^0.16.29",
+    "systemjs": "^0.19.22"
+  }
+}
