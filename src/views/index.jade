@@ -2,11 +2,14 @@ html
   head
     title="React Isomorphic App"
     meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-
-
+    meta(http-equiv='X-UA-Compatible', content='IE=edge') 
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     
   body
     #app!= content
+
+  script(type='text/javascript' src='/jspm_packages/system.js')
+  script(type='text/javascript' src='/config.js')
+  script(type='text/javascript').
+    System.import('/client/client.js');
