@@ -5,7 +5,7 @@ export default class Application extends React.Component {
   render() {
     return <div>
       <h1>Application</h1>
-      <div>
+      <div className="menu">
         <Link to="/" activeClassName="active">Main</Link>
         <span> | </span>
         <Link to="/second" activeClassName="active">Second</Link>

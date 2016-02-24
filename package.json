@@ -32,7 +32,8 @@
       "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
       "react": "npm:react@^0.14.7",
       "react-dom": "npm:react-dom@^0.14.7",
-      "react-router": "npm:react-router@^2.0.0"
+      "react-router": "npm:react-router@^2.0.0",
+      "scss": "github:mobilexag/plugin-sass@^0.2.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
