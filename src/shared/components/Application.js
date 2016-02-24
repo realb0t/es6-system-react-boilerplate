@@ -6,9 +6,9 @@ export default class Application extends React.Component {
     return <div>
       <h1>Application</h1>
       <div>
-        <Link to="/">Main</Link>
+        <Link to="/" activeClassName="active">Main</Link>
         <span> | </span>
-        <Link to="/second">Second</Link>
+        <Link to="/second" activeClassName="active">Second</Link>
       </div>
       <div>{this.props.children}</div>
     </div>;
